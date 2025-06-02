@@ -142,8 +142,24 @@ body{
 .influceres{
     display: flex;
 }
+.influencers-one{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
 .influencers-onee{
-    place-items: center;
+    place-self: center;
+    /* width: 600px; */
+}
+.influencers-onee button{
+    width: 70px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+}
+.influencers-onee button a{
+    color: black;
+    text-decoration: none;
 }
 .influencers-twoo{
     place-items: center;
