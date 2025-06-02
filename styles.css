@@ -150,12 +150,20 @@ body{
     place-self: center;
     /* width: 600px; */
 }
+.influencers-onee p{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.influencers-onee h3{
+    font-size: 22px;
+}
 .influencers-onee button{
     width: 70px;
     height: 45px;
     border-radius: 30px;
-    background-color: white;
+    background-color: rgb(229, 225, 225);
     border: none;
+    margin: 17px;
 }
 .influencers-onee button a{
     color: black;
