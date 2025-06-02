@@ -48,6 +48,7 @@ body{
 .navthree{
     display: flex;
     gap: 10px;
+    padding: 10px;
 }
 .dropbtn {
     /* background-color: #04AA6D; */
@@ -89,9 +90,15 @@ body{
 .navfour{
     display: flex;
     gap: 10px;
-     padding: 10px;
+    padding: 10px;
 }
 .navfour img{
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
 }
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}  
