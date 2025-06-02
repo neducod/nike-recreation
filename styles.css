@@ -147,7 +147,8 @@ body{
     border-right: 2px solid black;
 }
 .influencers-onee{
-    place-self: center;
+    /* place-self: center; */
+    place-items: center;
     /* width: 600px; */
 }
 .influencers-onee p{
@@ -169,6 +170,25 @@ body{
     color: black;
     text-decoration: none;
 }
+.influencers-two{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
 .influencers-twoo{
     place-items: center;
+}
+.influencers-twoo p{
+    padding-bottom: 5px; 
+}
+.influencers-twoo button{
+width: 70px;
+height: 45px;
+border-radius: 30px;
+background-color: rgb(229, 225, 225);
+border: none;
+margin: 17px;
+}
+.influencers-twoo button a{
+    color: black;
+    text-decoration: none;
 }
