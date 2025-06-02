@@ -139,3 +139,12 @@ body{
     from {opacity: .4}
     to {opacity: 1}
 }
+.influceres{
+    display: flex;
+}
+.influencers-onee{
+    place-items: center;
+}
+.influencers-twoo{
+    place-items: center;
+}
